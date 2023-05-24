@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <section class="iphone-section">
+        <div class="container">
+            <div class="content">
+                <h2 class="iphone-section-title">Contact Us</h2>
+                <ul class="breadcrumb-item">
+                    <li><a class="iphone-sec" href="index.html">Home</a></li>
+                    <li><a class="iphone-sec" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section-all">
+        <div style="background-color: rgba(128, 128, 128, 0.568);">
+            <div class="contact-section">
+                <div class="container">
+                    <div class="contact-us-form-section">
+                        <form action="#">
+                            <input id="fName" type="text" placeholder="First Name">
+                            <input id="lName" type="text" placeholder="Last Name">
+                            <input id="email" type="text" placeholder="Email">
+                            <textarea id="message" placeholder="Message" rows="10" cols="50"></textarea>
+                            <input id="submit" onclick="msgApply()" type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <video id="bk-video" src="video/bk-video.mp4" autoplay loop muted></video>
+        </div>
+
+    </section>
+
+    <!-- welcoming box will apear when user click on the login btn for 3 sec -->
+    <div id="welcoming">
+        <h1 id="welcoming-title" class=""></h1>
+        <p id="welcoming-msg" class=""></p>
+        <p class="center">Hope you enjoy all our servecis</p>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-div">
+                <a href="index.html"><img class="nav-bar-logo-img" src="images/logo.png" alt="Logo"></a>
+                <p>Lebanon, Beirut</p>
+                <p>70 123 321</p>
+                <p>mhmd@gmail.com</p>
+            </div>
+            <div class="footer-div">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="accesories.html">Accesories</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h4>Social Media</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <p>Done by <strong>Mohammad Nasser</strong>, ID <strong>12030553</strong></p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
